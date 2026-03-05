@@ -38,3 +38,49 @@ El objetivo del proyecto es crear una **estructura limpia, escalable y profesion
 
 # 🧱 Estructura del proyecto
 
+### Descripción de archivos
+
+- `index.html` → estructura principal del sitio web  
+- `styles.css` → estilos y diseño responsive  
+- `README.md` → documentación del proyecto  
+
+---
+
+# 🖥️ Secciones del sitio
+
+El portafolio incluye las siguientes secciones:
+
+- **Header / Navegación**
+- **Sobre mí**
+- **Proyectos**
+- **Habilidades**
+- **Contacto**
+
+---
+
+# 🎨 Paleta de colores
+
+| Color | Código |
+|------|------|
+| Azul marino | `#0f172a` |
+| Azul acento | `#1e3a8a` |
+| Gris claro | `#f1f5f9` |
+| Blanco | `#ffffff` |
+
+---
+
+# ⚙️ Tecnologías utilizadas
+
+- HTML5  
+- CSS3  
+- Flexbox  
+- Responsive Design  
+
+---
+
+# 🚀 Cómo usar el proyecto
+
+1. Clonar el repositorio
+
+```bash
+git clone https://github.com/tuusuario/tu-repositorio.git
