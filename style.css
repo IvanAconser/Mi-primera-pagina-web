@@ -1,3 +1,16 @@
+/* =========================
+   Variables de colores
+   ========================= */
+
+:root {
+    --color-primario: #1e293b;
+    --color-secundario: #3b82f6;
+    --color-fondo: #f8fafc;
+    --color-blanco: #ffffff;
+    --color-texto: #0f172a;
+    --color-borde: #e2e8f0;
+}
+
 /* Reset básico */
 * {
     margin: 0;
@@ -7,8 +20,8 @@
 
 body {
     font-family: 'Segoe UI', sans-serif;
-    background-color: #f1f5f9;
-    color: #0f172a;
+    background-color: var(--color-fondo);
+    color: var(--color-texto);
     line-height: 1.6;
 }
 
@@ -21,8 +34,8 @@ body {
 
 /* Header */
 .header {
-    background-color: #0f172a;
-    color: #ffffff;
+    background-color: var(--color-primario);
+    color: var(--color-blanco);
     padding: 1rem 0;
 }
 
@@ -45,13 +58,13 @@ body {
 
 .nav-links a {
     text-decoration: none;
-    color: #ffffff;
+    color: var(--color-blanco);
     font-weight: 500;
     transition: 0.3s;
 }
 
 .nav-links a:hover {
-    color: #1e3a8a;
+    color: var(--color-secundario);
 }
 
 /* Secciones */
@@ -77,12 +90,13 @@ body {
     max-width: 600px;
 }
 
+/* Botones */
 .btn {
     display: inline-block;
     margin-top: 1rem;
     padding: 0.7rem 1.5rem;
-    background-color: #1e3a8a;
-    color: #ffffff;
+    background-color: var(--color-secundario);
+    color: var(--color-blanco);
     text-decoration: none;
     border-radius: 5px;
     transition: 0.3s;
@@ -91,7 +105,7 @@ body {
 }
 
 .btn:hover {
-    background-color: #0f172a;
+    background-color: var(--color-primario);
 }
 
 /* Proyectos */
@@ -103,10 +117,11 @@ body {
 }
 
 .project-card {
-    background-color: #ffffff;
+    background-color: var(--color-blanco);
     padding: 1.5rem;
     flex: 1 1 300px;
     border-radius: 8px;
+    border: 1px solid var(--color-borde);
     box-shadow: 0 4px 10px rgba(0,0,0,0.05);
     transition: 0.3s;
 }
@@ -124,10 +139,10 @@ body {
 }
 
 .skill {
-    background-color: #ffffff;
+    background-color: var(--color-blanco);
     padding: 0.8rem 1.5rem;
     border-radius: 20px;
-    border: 1px solid #1e3a8a;
+    border: 1px solid var(--color-secundario);
     font-weight: 500;
 }
 
@@ -143,14 +158,14 @@ body {
 .contact-form input,
 .contact-form textarea {
     padding: 0.8rem;
-    border: 1px solid #ccc;
+    border: 1px solid var(--color-borde);
     border-radius: 5px;
 }
 
 /* Footer */
 .footer {
-    background-color: #0f172a;
-    color: #ffffff;
+    background-color: var(--color-primario);
+    color: var(--color-blanco);
     text-align: center;
     padding: 1rem 0;
     margin-top: 2rem;
